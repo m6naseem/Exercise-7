@@ -7,19 +7,64 @@
   <link href="https://fonts.googleapis.com/css2?family=Momo+Trust+Display&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
   
   <style>
+    html {
+    font-size: 16px; /* base font size */
+  }
+    
     .grid {
   display: grid;                         
   grid-template-columns: repeat(2, 1fr); 
   gap: 30px;                             
   margin-top: 80px;
   margin-bottom: 80px;
+ 
 }
     
   body {
 font-family: 'Open Sans', sans-serif;
 background-color: #92a893;
+font-size: 1em;
+    line-height: 1.5;
+     padding: 30px;
 }
+    h1, h3, h4 {
+    font-family: 'Momo Trust Display', sans-serif;
+    color: #261609;
+    letter-spacing: 0.1em; 
+  }
+     h1 {
+    font-size: 3em; 
+    line-height: 1em;
+       
+  }
   
+  h3 {
+    font-size: 1.3em;
+    }
+      
+    h4 {
+    font-size: 1em;}
+    
+    p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em; 
+    line-height: 1.5em;
+    margin-bottom: 2em;
+  }
+    img {
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px  #fff58a;
+      
+  }
+    h2 .author {
+  font-size: 0.8em;
+  font-family: 'Momo Trust Display', sans-serif;
+  color: #261609;
+  letter-spacing: 0.175em; 
+  font-weight: 300; /* try 300 for thinner look */
+}
   </style>
   
     </head>
@@ -28,7 +73,7 @@ background-color: #92a893;
     <div class="grid">
     <div class="left-side">
    <h1>Spinach, Tofu and Sesame Stir-Fry</h1>
-    <h2> By: Martha Rose Shulman</h2>
+   <h2><em class="author">By: Martha Rose Shulman</em></h2>
     <h3>Yield: 3 Servings</h3>
     <img src="Spinach_Stir-fry.png" alt="Spinach Tofu Sesame Stir-Fry" width="400">
 
